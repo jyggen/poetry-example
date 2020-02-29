@@ -1,0 +1,3 @@
+app/.venv
+**/*.egg-info
+**/*-wheel-metadata

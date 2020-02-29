@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "package-b"
+version = "0.1.0"
+description = "Package B"
+authors = ["John doe <john.doe@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+package-a = {path = "../package-a"}
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"

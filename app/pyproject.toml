@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "App"
+authors = ["John doe <john.doe@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+package-a = {path = "../package-a"}
+package-b = {path = "../package-b"}
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"

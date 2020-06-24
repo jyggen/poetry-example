@@ -22,7 +22,7 @@ python-versions = "^3.7"
 version = "0.1.0"
 
 [package.dependencies]
-package-a = "*"
+package-a = "0.1.0"
 
 [package.source]
 reference = ""

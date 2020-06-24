@@ -10,5 +10,5 @@ package-a = {path = "../package-a"}
 package-b = {path = "../package-b"}
 
 [build-system]
-requires = ["poetry>=1.0.0"]
+requires = ["poetry>=1.0.9"]
 build-backend = "poetry.masonry.api"

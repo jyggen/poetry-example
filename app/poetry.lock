@@ -1,6 +1,6 @@
 [[package]]
 category = "main"
-description = ""
+description = "Package A"
 develop = true
 name = "package-a"
 optional = false
@@ -14,7 +14,7 @@ url = "../package-a"
 
 [[package]]
 category = "main"
-description = ""
+description = "Package B"
 develop = true
 name = "package-b"
 optional = false
@@ -31,6 +31,7 @@ url = "../package-b"
 
 [metadata]
 content-hash = "dd37d6aa1dcb5ea2bb94a99c549d60ac8706e89b6e323eca615130e422b33276"
+lock-version = "1.1"
 python-versions = "^3.7"
 
 [metadata.files]

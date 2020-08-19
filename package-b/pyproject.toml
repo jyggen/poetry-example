@@ -9,5 +9,5 @@ python = "^3.7"
 package-a = {path = "../package-a"}
 
 [build-system]
-requires = ["poetry>=1.0.9"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry>=1.1.0b2"]
+build-backend = "poetry.core.masonry.api"

@@ -8,5 +8,5 @@ authors = ["John doe <john.doe@example.com>"]
 python = "^3.7"
 
 [build-system]
-requires = ["poetry>=1.1.0b2"]
+requires = ["poetry_core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"

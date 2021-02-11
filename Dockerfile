@@ -7,6 +7,5 @@ RUN apt-get update && apt-get install -y wget \
 ENV PATH="/usr/local/poetry/bin:${PATH}"
 COPY . /build
 WORKDIR /build/app
-RUN poetry export --without-hashes -f requirements.txt \
-  | sed 's/-e //' \
-  | pip install -r /dev/stdin
+RUN poetry export --without-hashes -f requirements.txt > requirements.txt
+RUN  cat requirements.txt && ls /build && pip install -r requirements.txt

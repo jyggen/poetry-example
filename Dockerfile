@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 ENV POETRY_HOME=/usr/local/poetry
-ENV POETRY_VERSION=1.1.0b2
+ENV POETRY_VERSION=1.1.4
 RUN apt-get update && apt-get install -y wget \
   && wget https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py \
   && python get-poetry.py
